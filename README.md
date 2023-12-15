@@ -28,7 +28,7 @@
 </p>
 
 <p align="center">
-  <img src="" width="70%" />
+  <img src="./src/images/Screen.png" width="70%" />
 </p>
 
 <h4>Код бэкенда опубликован в репозитории - <a href="https://github.com/NadyaDor/movies-explorer-api" title="Ссылка на Github">ссылка</a>.</h4>
