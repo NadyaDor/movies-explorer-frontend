@@ -1,0 +1,20 @@
+.main__boxes-with-titles {
+  border-bottom: 1px solid #000;
+}
+
+.main__titles-in-boxes {
+  height: 50px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26.63px;
+  color: #000;
+  margin: 0;
+}
+
+@media screen and (max-width: 760px) {
+  .main__boxes-with-titles {
+    font-size: 18px;
+    line-height: 21.78px;
+  }
+}
+

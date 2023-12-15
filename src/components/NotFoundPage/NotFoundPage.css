@@ -1,0 +1,82 @@
+.not-found-page {
+  max-width: 1280px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-bottom: 60px;
+}
+
+.not-found-page__text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-page__text-title {
+  font-weight: 400;
+  font-size: 140px;
+  line-height: 169.43px;
+  color: #000;
+  margin: 0;
+}
+
+.not-found-page__text-information {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #000;
+  margin: 0;
+}
+
+.not-found-page__buttom {
+  border: none;
+  background-color: #FFF;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+  color: #3456F3;
+  cursor: pointer;
+}
+
+.not-found-page__buttom:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 980px) {
+  .not-found-page {
+    /* justify-content: flex-start; */
+    padding-bottom: 0;
+  }
+  
+  .not-found-page__text {
+    flex: none;
+    margin: 408px 0 184px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .not-found-page__text {
+    margin: 329px 0 284px;
+    gap: 10px;
+  }
+
+  .not-found-page__text-title {
+    font-size: 80px;
+    line-height: 96.82px;
+  }
+
+  .not-found-page__text-information {
+    font-size: 12px;
+    line-height: 14.52px;
+  }
+
+  .not-found-page__buttom {
+    font-size: 12px;
+    line-height: 14.52px;
+  }
+}

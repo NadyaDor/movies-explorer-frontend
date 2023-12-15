@@ -1,0 +1,222 @@
+/* свойства для фона */
+.header {
+  min-width: 100%;
+  max-width: 1280px;
+  height: 74px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #073042;
+  padding: 18px 70px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.header_white {
+  background-color: #FFF;
+}
+
+/* Логотип */
+.header__logo {
+  width: 38px;
+  height: 38px;
+}
+
+.header__logo-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.header__logo-button:hover {
+  opacity: .8;
+}
+
+/* Кнопки справа */
+.header__menu {
+  display: flex;
+  gap: 30px;
+}
+
+.header__button-registration {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFF;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.header__button-registration:hover {
+  opacity: .7;
+}
+
+.header__button-enter {
+  width: 76px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  background-color: #2BE080;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.header__button-enter:hover {
+  opacity: .8;
+}
+
+/* Кнопки в центре */
+.header__menu-films {
+  display: flex;
+  gap: 16px;
+  margin-left: 63px;
+}
+
+.header__button-films {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #FFF;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.header__button-films:hover {
+  opacity: .7;
+}
+
+.header__button-films-white {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.header__button-films-white:hover {
+  opacity: .7;
+}
+
+.header__button-films-white-current {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Кнопка, когда авторизирован */
+.header__account {
+  width: 100px;
+  height: 32px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2BE080;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.header__account:hover {
+  opacity: .8;
+}
+
+.header__account-white {
+  width: 100px;
+  height: 32px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FFF;
+  border-radius: 40px;
+  box-shadow: 0 3px 14px 0 rgba(0, 0, 0, .08);
+  cursor: pointer;
+}
+
+.header__account-white:hover {
+  opacity: .8;
+}
+
+.header__account-text {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 12px;
+  color: #000;
+  margin: 0;
+}
+
+.header__icon-box {
+  width: 26px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF;
+  border-radius: 50px;
+}
+
+.header__icon-box-white {
+  width: 26px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F9F9F9;
+  border-radius: 50px;
+}
+
+.header__icon {
+  width: 10.38px;
+  height: 10.38px;
+}
+
+/* Бургер меню */
+.header__burger-none {
+  display: none;
+}
+
+.header__burger {
+  display: none;
+}
+
+/* Разрешение менее 1280px */
+@media screen and (max-width: 980px) {
+  .header {
+    padding: 15px 30px;
+  }
+
+  .header__menu-films,
+  .header__account,
+  .header__account-white {
+    display: none;
+  }
+
+  .header__burger {
+    display: block;
+  }
+
+  .header__account-white {
+    margin-top: auto;
+  }
+}
+
+/* разрешение менее 760px */
+@media screen and (max-width: 760px) {
+  .header {
+    padding: 15px 14px;
+  }
+}
