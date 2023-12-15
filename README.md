@@ -23,7 +23,7 @@
 <a href="https://reactjs.org/" title="React"><img src="https://img.shields.io/badge/Express-%23FFFFFF%20?logo=express&logoColor=%23000000%20&color=%2361DAFB" alt="React" height="30px"></a>
 
 <p align="center">
-  <h4 align="center" >Приложение опубликавано на Vercel-pages - <a href="" title="Ссылка на Vercel Pages">ссылка</a>.</h4>
+  <h4 align="center" >Приложение опубликавано на Vercel-pages - <a href="https://movies-explorer-frontend-coral.vercel.app/" title="Ссылка на Vercel Pages">ссылка</a>.</h4>
   <p align="center" >Не забудьте нажать "Открыть в новой вкладке" :wink: </p>
 </p>
 
